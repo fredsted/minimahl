@@ -1,0 +1,281 @@
+﻿/*
+Theme Name: minimahl
+Theme URI: http://simonfredsted.com
+Description: Minimahl, simonfredsted.com theme
+Version: 1
+Author: Simon Fredsted
+Author URI: http://simonfredsted.com
+Tags: white
+*/
+
+body {
+	width: 600px;
+	margin: 0 auto;
+	padding: 0;
+	
+	font-family: "Helvetica Neue", Helvetica, arial;
+	font-size: 14px;
+	
+	color: #222;
+}
+
+#top {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 150px;
+	background: #3ea5ce;
+	z-index: -999;
+}
+
+::-moz-selection { background: orange; color: #fff; text-shadow: none; }
+::selection { background: orange; color: #fff; text-shadow: none; }
+
+/*@media only screen and (max-device-width: 480px) {
+   body {
+	   width: 480px;
+   }
+   
+   img {
+	   width: 100%;
+   }
+}*/
+
+a {
+	color: #045ee7;
+	position: relative;
+}
+
+a:visited {
+	color: #045ee7;
+}
+
+a:active {
+	top: 2px;
+}
+
+h1 a, h1 a:visited {
+	color: #000;
+	text-decoration: none;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+	font-size: 45px;
+	padding: 5px 10px;
+	margin-left: -65px;
+	border-radius: 3px;
+	padding-left: 65px;
+	z-index: 4999;
+}
+
+h1 a:hover, #sidebar ul li a:hover {
+	background: #fff;
+	background-position-y: 9px;
+	color: #3ea5ce!important;
+}
+
+h1 a:hover {
+	background: #fff url(home.png) no-repeat;
+	background-position-x: 7px;
+	background-position-y: 9px;
+}
+
+h1 img {
+	margin-bottom: -8px;
+	margin-right: 10px;
+	z-index: 5000;
+}
+
+.description { float: left; }
+
+#header {
+	
+}
+
+#header a {
+	color: white;
+}
+
+#sidebar {
+	display: table;
+	margin-bottom: 50px;
+}
+
+#sidebar ul, #sidebar li, #sidebar a {
+	list-style: none;
+	float: left;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 200;
+	border-radius: 2px;
+}
+
+#sidebar a {
+	padding: 5px 7px;
+	margin-left: -8px;
+}
+
+#sidebar li {
+	margin-right: 20px;
+	
+	
+}
+
+#sidebar ul.sub-menu li {
+	display: none;
+}
+
+#sidebar ul.sub-menu li:hover > ul {
+	display: block;
+}
+
+#content h2 {
+	font-weight: 700;
+	font-size: 18px;
+}
+
+#content h2 a {
+	color: #333;	
+	padding: 5px;
+	font-weight: 700;
+	text-decoration: none;
+	height: 30px;
+}
+
+.littledate, .littlecom {
+	font-weight: 200;
+	color:#fff;
+	margin-right: 10px;
+	background: #3ea5ce;
+	margin-left: -5px;
+	border-radius: 2px;
+	height: 19px;
+	padding-top: 4px;
+	display: inline-block;
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 8px;
+}
+
+.littlecom img {
+	width: auto;
+}
+
+#content h2 a:hover {
+	color: #fff;
+	background: #3ea5ce;
+	text-decoration: none;
+	border-radius: 2px;
+}
+
+/*#content h2:hover .littledate, #content h2:hover .littlecom {
+	background: white;
+	color: #3ea5ce;
+}*/
+
+#archives-3 {
+	display: none;
+}
+
+#sidebar h2 {
+	display:none;
+}
+
+hr {
+	border: 0;
+	border-top: 1px solid #e8e8e8;
+	height: 0px;
+	margin: 50px 0px;
+}
+
+#content  {
+	line-height: 1.7em;
+	list-style-type: 
+}
+
+.post ul li {
+	padding-bottom: 15px;
+}
+
+/*.post ul li:before {
+	content: "–";
+	margin-right: 15px;
+	margin-left: -23px;
+}*/
+
+.entry .postmetadata {
+	padding-top: 50px;
+}
+
+.entry img {
+	padding: 5px;
+	border: 0;
+}
+
+.entry img.aligncenter {
+	text-align: center!important;
+	display: block;
+	margin: 0 auto;
+}
+
+#content .navigation {
+	font-size: 13px;
+	padding: 50px 0;
+}
+
+.hidden {
+	display: none;
+}
+
+.alignleft {
+	float: left;
+}
+
+img.alignleft {
+	padding: 0px 10px 10px 0px;
+}
+
+.alignright {
+	float: right;
+}
+
+ol.commentlist {
+	list-style-type: none;
+	padding: 0;
+	font-size: 13px;
+}
+
+ol.commentlist img.avatar { 
+	float: left;
+	padding-right: 5px;
+}
+
+ol.commentlist li {
+	padding-bottom: 1px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #CCC;
+}
+
+ol.commentlist cite a, ol.commentlist cite a:visited {
+	color: #222;
+}
+
+ol.commentlist .commentmetadata a,
+ol.commentlist .commentmetadata a:visited {
+	color: #666;
+	text-decoration: none;
+	line-height: 20px;
+}
+
+ol.commentlist li p {
+	margin-left: 37px;
+}
+
+#footer {
+	margin: 100px 0;
+	font-weight: 200;
+
+}
