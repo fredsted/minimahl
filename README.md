@@ -1,5 +1,5 @@
-minimahl-wp
-===========
+minimahl
+========
 
 Minimahl - a minimalist theme for WordPress
 By Simon Fredsted (c) 2013
