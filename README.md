@@ -8,4 +8,4 @@ Formerly used on my personal blog. Now open source.
 
 Let's get to it, where's the screenshot? Here's how it looks:
 
-![Screenshot](http://i.imgur.com/vDGuOCq)
+![Screenshot](http://i.imgur.com/vDGuOCq.png)
