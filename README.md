@@ -6,7 +6,7 @@ By Simon Fredsted (c) 2013
 
 Formerly used on my personal blog. Now open source.
 
-There's more info at the [project Web site](http://fredsted.github.io/minimahl-wp).
+There's more info at the [project Web site](http://fredsted.github.io/minimahl).
 
 Let's get to it, where's the screenshot? Here's how it looks:
 
